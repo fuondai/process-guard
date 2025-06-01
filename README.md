@@ -13,7 +13,7 @@
 
 ## Tổng quan
 
-ProcessGuard là công cụ bảo mật mạnh mẽ được thiết kế để phát hiện và ngăn chặn kỹ thuật tấn công Process Doppelgänging tiên tiến trên hệ thống Windows. Với khả năng giám sát mạnh mẽ và cơ chế tự bảo vệ, ProcessGuard cung cấp bảo mật toàn diện cho môi trường doanh nghiệp.
+ProcessGuard là công cụ bảo mật mạnh mẽ được thiết kế để phát hiện và ngăn chặn kỹ thuật tấn công Process Doppelgänging tiên tiến trên hệ thống Windows. Với khả năng giám sát mạnh mẽ và cơ chế tự bảo vệ, ProcessGuard cung cấp bảo mật toàn diện cho môi trường mạng an toàn.
 
 ### Tính năng chính
 
