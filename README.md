@@ -194,10 +194,6 @@ ProcessGuard/
 └── tests/                  # Module kiểm thử
 ```
 
-## Đóng góp
-
-Mọi đóng góp đều được hoan nghênh! Vui lòng xem [Hướng dẫn đóng góp](docs/CONTRIBUTING.md) để biết chi tiết về cách bắt đầu.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
