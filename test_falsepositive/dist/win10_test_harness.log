@@ -1,0 +1,578 @@
+2025-06-12 13:30:53,007 - INFO - Deleting old ProcessGuard log file: C:\Users\a\Desktop\AV\test_falsepositive\dist\detector.log
+2025-06-12 13:30:53,007 - ERROR - Could not delete C:\Users\a\Desktop\AV\test_falsepositive\dist\detector.log: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\detector.log'
+2025-06-12 13:30:53,007 - INFO - --- STARTING RANDOM SYSTEM EXE & MALICIOUS TEST HARNESS ---
+2025-06-12 13:30:53,007 - INFO - Test duration: 3600 seconds
+2025-06-12 13:30:53,007 - INFO - Harness log file: C:\Users\a\Desktop\AV\test_falsepositive\dist\test_harness.log
+2025-06-12 13:30:53,007 - INFO - Monitoring ProcessGuard log at: C:\Users\a\Desktop\AV\test_falsepositive\dist\detector.log
+2025-06-12 13:30:53,007 - INFO - Please run ProcessGuard in monitoring mode in a separate terminal.
+2025-06-12 13:30:53,007 - INFO - Suggested command: .\ProcessGuard.exe --monitor (run from the same directory)
+2025-06-12 13:31:06,664 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\fveprompt.exe']
+2025-06-12 13:31:06,679 - INFO - Launched process with PID: 3696
+2025-06-12 13:31:11,679 - INFO - [STATS] Benign run count: 1
+2025-06-12 13:31:11,679 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:31:33,007 - INFO - [BENIGN] Executing: ['C:\\Windows\\winhlp32.exe']
+2025-06-12 13:31:33,007 - INFO - Launched process with PID: 5372
+2025-06-12 13:31:38,070 - INFO - [STATS] Benign run count: 2
+2025-06-12 13:31:38,289 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:31:59,429 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-ftp_31bf3856ad364e35_10.0.16251.0_none_ab075a7da5465050\\ftp.exe']
+2025-06-12 13:31:59,429 - INFO - Launched process with PID: 2868
+2025-06-12 13:32:04,570 - INFO - Terminated benign process (PID: 2868) and its children.
+2025-06-12 13:32:04,570 - INFO - [STATS] Benign run count: 3
+2025-06-12 13:32:04,570 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:32:14,586 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:32:19,601 - INFO - [STATS] Malicious run count: 1
+2025-06-12 13:32:19,601 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:32:42,492 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\MbaeParserTask.exe']
+2025-06-12 13:32:42,492 - INFO - Launched process with PID: 3332
+2025-06-12 13:32:47,507 - INFO - [STATS] Benign run count: 4
+2025-06-12 13:32:47,507 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:33:06,226 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\FileHistory.exe']
+2025-06-12 13:33:06,241 - INFO - Launched process with PID: 3640
+2025-06-12 13:33:11,398 - INFO - Terminated benign process (PID: 3640) and its children.
+2025-06-12 13:33:11,414 - INFO - [STATS] Benign run count: 5
+2025-06-12 13:33:11,414 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:33:33,586 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_microsoft-windows-d..-commandline-dsacls_31bf3856ad364e35_10.0.16251.0_none_eb18932a946bfbe7\\dsacls.exe']
+2025-06-12 13:33:33,601 - INFO - Launched process with PID: 4852
+2025-06-12 13:33:38,601 - INFO - [STATS] Benign run count: 6
+2025-06-12 13:33:38,601 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:34:01,461 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-synchost_31bf3856ad364e35_10.0.16251.0_none_679d09a6494eb97d\\SyncHost.exe']
+2025-06-12 13:34:01,476 - INFO - Launched process with PID: 2984
+2025-06-12 13:34:06,648 - INFO - Terminated benign process (PID: 2984) and its children.
+2025-06-12 13:34:06,648 - INFO - [STATS] Benign run count: 7
+2025-06-12 13:34:06,664 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:34:28,164 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-d..-commandline-dsdiag_31bf3856ad364e35_10.0.16251.0_none_4a4b01164ac571bb\\dcdiag.exe']
+2025-06-12 13:34:28,179 - INFO - Launched process with PID: 1768
+2025-06-12 13:34:33,179 - INFO - [STATS] Benign run count: 8
+2025-06-12 13:34:33,179 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:34:56,758 - INFO - [BENIGN] Executing: ['C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe\\Microsoft.ECApp.exe']
+2025-06-12 13:34:56,773 - INFO - Launched process with PID: 4280
+2025-06-12 13:35:01,789 - INFO - [STATS] Benign run count: 9
+2025-06-12 13:35:01,789 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:35:25,398 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-where_31bf3856ad364e35_10.0.16251.0_none_5bef35ad2ae6e5a1\\where.exe']
+2025-06-12 13:35:25,398 - INFO - Launched process with PID: 3920
+2025-06-12 13:35:30,414 - INFO - [STATS] Benign run count: 10
+2025-06-12 13:35:30,414 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:35:52,976 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\psr.exe']
+2025-06-12 13:35:52,976 - ERROR - Error running ['C:\\Windows\\System32\\psr.exe']: [WinError 740] The requested operation requires elevation
+2025-06-12 13:35:52,976 - INFO - [STATS] Benign run count: 11
+2025-06-12 13:35:52,992 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:36:17,257 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\DiagSvcs\\DiagnosticsHub.StandardCollector.Service.exe']
+2025-06-12 13:36:17,257 - INFO - Launched process with PID: 2972
+2025-06-12 13:36:22,258 - INFO - [STATS] Benign run count: 12
+2025-06-12 13:36:22,258 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:36:39,601 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\winload.exe']
+2025-06-12 13:36:39,601 - ERROR - Error running ['C:\\Windows\\System32\\winload.exe']: [WinError 193] %1 is not a valid Win32 application
+2025-06-12 13:36:39,601 - INFO - [STATS] Benign run count: 13
+2025-06-12 13:36:39,601 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:36:58,164 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\ipconfig.exe']
+2025-06-12 13:36:58,164 - INFO - Launched process with PID: 6124
+2025-06-12 13:37:03,179 - INFO - [STATS] Benign run count: 14
+2025-06-12 13:37:03,179 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:37:23,461 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-t..ces-workspacebroker_31bf3856ad364e35_10.0.16251.0_none_8d5e3ddb6d851911\\wkspbroker.exe']
+2025-06-12 13:37:23,461 - INFO - Launched process with PID: 2896
+2025-06-12 13:37:28,476 - INFO - [STATS] Benign run count: 15
+2025-06-12 13:37:28,476 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:37:49,586 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_microsoft-windows-csvde_31bf3856ad364e35_10.0.16251.0_none_fd3b8c6176e39beb\\csvde.exe']
+2025-06-12 13:37:49,586 - INFO - Launched process with PID: 5188
+2025-06-12 13:37:54,586 - INFO - [STATS] Benign run count: 16
+2025-06-12 13:37:54,586 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:38:11,914 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-apprep-chxapp.appxmain_31bf3856ad364e35_10.0.16251.0_none_3605703a5efc0ea5\\CHXSmartScreen.exe']
+2025-06-12 13:38:11,929 - INFO - Launched process with PID: 3040
+2025-06-12 13:38:16,930 - INFO - [STATS] Benign run count: 17
+2025-06-12 13:38:16,930 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:38:36,055 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\TokenBrokerCookies.exe']
+2025-06-12 13:38:36,055 - INFO - Launched process with PID: 3036
+2025-06-12 13:38:41,070 - INFO - [STATS] Benign run count: 18
+2025-06-12 13:38:41,070 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:39:00,166 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\IME\\shared\\IMCCPHR.exe']
+2025-06-12 13:39:00,179 - INFO - Launched process with PID: 5884
+2025-06-12 13:39:05,288 - INFO - Terminated benign process (PID: 5884) and its children.
+2025-06-12 13:39:05,288 - INFO - [STATS] Benign run count: 19
+2025-06-12 13:39:05,288 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:39:26,164 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-a..ntscontrol.appxmain_31bf3856ad364e35_10.0.16251.0_none_8c446a198ab4c181\\AccountsControlHost.exe']
+2025-06-12 13:39:26,179 - INFO - Launched process with PID: 5500
+2025-06-12 13:39:31,180 - INFO - [STATS] Benign run count: 20
+2025-06-12 13:39:31,180 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:39:49,305 - INFO - [BENIGN] Executing: ['C:\\Users\\a\\Desktop\\AV\\process-guard\\ProcessGuard.exe']
+2025-06-12 13:39:49,305 - INFO - Launched process with PID: 1496
+2025-06-12 13:39:54,320 - INFO - [STATS] Benign run count: 21
+2025-06-12 13:39:54,320 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:40:13,586 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\dmcertinst.exe']
+2025-06-12 13:40:13,586 - INFO - Launched process with PID: 1784
+2025-06-12 13:40:18,601 - INFO - [STATS] Benign run count: 22
+2025-06-12 13:40:18,601 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:40:40,695 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-i..tional-chinese-core_31bf3856ad364e35_10.0.16251.0_none_579ffa1a4db45fa5\\IMTCPROP.exe']
+2025-06-12 13:40:40,711 - INFO - Launched process with PID: 6084
+2025-06-12 13:40:45,804 - INFO - Terminated benign process (PID: 6084) and its children.
+2025-06-12 13:40:45,804 - INFO - [STATS] Benign run count: 23
+2025-06-12 13:40:45,804 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:41:07,867 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-dlna-mdeserver_31bf3856ad364e35_10.0.16251.0_none_d4242fa16f9e2bd7\\MDEServer.exe']
+2025-06-12 13:41:07,882 - INFO - Launched process with PID: 700
+2025-06-12 13:41:12,992 - INFO - Terminated benign process (PID: 700) and its children.
+2025-06-12 13:41:12,992 - INFO - [STATS] Benign run count: 24
+2025-06-12 13:41:12,992 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:41:35,351 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\whoami.exe']
+2025-06-12 13:41:35,367 - INFO - Launched process with PID: 204
+2025-06-12 13:41:40,383 - INFO - [STATS] Benign run count: 25
+2025-06-12 13:41:40,383 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:41:59,304 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-d..-commandline-dsdiag_31bf3856ad364e35_10.0.16251.0_none_4a4b01164ac571bb\\dcdiag.exe']
+2025-06-12 13:41:59,304 - INFO - Launched process with PID: 5044
+2025-06-12 13:42:04,320 - INFO - [STATS] Benign run count: 26
+2025-06-12 13:42:04,320 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:42:09,336 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:42:14,351 - INFO - [STATS] Malicious run count: 2
+2025-06-12 13:42:14,351 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:42:36,586 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\Register-CimProvider.exe']
+2025-06-12 13:42:36,601 - INFO - Launched process with PID: 4632
+2025-06-12 13:42:41,632 - INFO - [STATS] Benign run count: 27
+2025-06-12 13:42:41,632 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:42:47,633 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:42:52,648 - INFO - [STATS] Malicious run count: 3
+2025-06-12 13:42:52,648 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:43:12,101 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-wmi-core_31bf3856ad364e35_10.0.16251.0_none_c1c4a9f4a0b5b488\\mofcomp.exe']
+2025-06-12 13:43:12,116 - INFO - Launched process with PID: 5260
+2025-06-12 13:43:17,117 - INFO - [STATS] Benign run count: 28
+2025-06-12 13:43:17,117 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:43:23,132 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:43:28,133 - INFO - [STATS] Malicious run count: 4
+2025-06-12 13:43:28,133 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:43:49,086 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-wlan-extension_31bf3856ad364e35_10.0.16251.0_none_0253d60da4769d91\\wlanext.exe']
+2025-06-12 13:43:49,086 - INFO - Launched process with PID: 5344
+2025-06-12 13:43:54,101 - INFO - [STATS] Benign run count: 29
+2025-06-12 13:43:54,101 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:44:17,164 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-lxss-wsl_31bf3856ad364e35_10.0.16251.0_none_810a80eb1b9c717f\\wsl.exe']
+2025-06-12 13:44:17,179 - INFO - Launched process with PID: 3196
+2025-06-12 13:44:22,180 - INFO - [STATS] Benign run count: 30
+2025-06-12 13:44:22,180 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:44:43,820 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-deployment_31bf3856ad364e35_10.0.16251.0_none_fa0af3583a0a54bd\\setupugc.exe']
+2025-06-12 13:44:43,835 - INFO - Launched process with PID: 2820
+2025-06-12 13:44:48,851 - INFO - [STATS] Benign run count: 31
+2025-06-12 13:44:48,851 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:45:08,867 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-calc_31bf3856ad364e35_10.0.16251.0_none_b22ea81a9bd90c92\\calc.exe']
+2025-06-12 13:45:08,867 - INFO - Launched process with PID: 5280
+2025-06-12 13:45:13,868 - INFO - [STATS] Benign run count: 32
+2025-06-12 13:45:13,868 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:45:36,383 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-proquota_31bf3856ad364e35_10.0.16251.0_none_30379eb713823c7e\\proquota.exe']
+2025-06-12 13:45:36,398 - INFO - Launched process with PID: 3960
+2025-06-12 13:45:41,398 - INFO - [STATS] Benign run count: 33
+2025-06-12 13:45:41,398 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:45:58,867 - INFO - [BENIGN] Executing: ['C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\jsc.exe']
+2025-06-12 13:45:58,882 - INFO - Launched process with PID: 3000
+2025-06-12 13:46:03,883 - INFO - [STATS] Benign run count: 34
+2025-06-12 13:46:03,883 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:46:25,367 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\msil_comsvcconfig_b03f5f7f11d50a3a_4.0.15513.0_none_8885b483dcceb38f\\ComSvcConfig.exe']
+2025-06-12 13:46:25,367 - INFO - Launched process with PID: 4908
+2025-06-12 13:46:30,383 - INFO - [STATS] Benign run count: 35
+2025-06-12 13:46:30,383 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:46:53,899 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\msil_wsatconfig_b03f5f7f11d50a3a_4.0.15513.0_none_a5dae752bfb5981b\\WsatConfig.exe']
+2025-06-12 13:46:53,913 - INFO - Launched process with PID: 5320
+2025-06-12 13:46:58,914 - INFO - [STATS] Benign run count: 36
+2025-06-12 13:46:58,914 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:47:08,930 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:47:13,945 - INFO - [STATS] Malicious run count: 5
+2025-06-12 13:47:13,945 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:47:33,882 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\forfiles.exe']
+2025-06-12 13:47:33,961 - INFO - Launched process with PID: 6136
+2025-06-12 13:47:38,961 - INFO - [STATS] Benign run count: 37
+2025-06-12 13:47:38,961 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:47:58,820 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-iis-legacysnapin_31bf3856ad364e35_10.0.16251.0_none_7f3cd094fec25064\\InetMgr6.exe']
+2025-06-12 13:47:58,820 - INFO - Launched process with PID: 5464
+2025-06-12 13:48:03,836 - INFO - [STATS] Benign run count: 38
+2025-06-12 13:48:03,836 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:48:22,461 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\TCPSVCS.EXE']
+2025-06-12 13:48:22,461 - INFO - Launched process with PID: 2980
+2025-06-12 13:48:27,476 - INFO - [STATS] Benign run count: 39
+2025-06-12 13:48:27,492 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:48:37,508 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:48:42,523 - INFO - [STATS] Malicious run count: 6
+2025-06-12 13:48:42,523 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:49:06,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-f..ysafety-refreshtask_31bf3856ad364e35_10.0.16251.0_none_5ccbde3db30b67a3\\WpcTok.exe']
+2025-06-12 13:49:06,133 - INFO - Launched process with PID: 4684
+2025-06-12 13:49:11,148 - INFO - [STATS] Benign run count: 40
+2025-06-12 13:49:11,148 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:49:34,523 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_netfx4-ngentask_exe_b03f5f7f11d50a3a_4.0.15513.0_none_15fb6d268632a7b9\\ngentask.exe']
+2025-06-12 13:49:34,539 - INFO - Launched process with PID: 1936
+2025-06-12 13:49:39,555 - INFO - [STATS] Benign run count: 41
+2025-06-12 13:49:39,555 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:50:05,414 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\TRACERT.EXE']
+2025-06-12 13:50:05,445 - INFO - Launched process with PID: 3252
+2025-06-12 13:50:10,448 - INFO - [STATS] Benign run count: 42
+2025-06-12 13:50:10,448 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:50:19,476 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 13:50:24,477 - INFO - [STATS] Malicious run count: 7
+2025-06-12 13:50:24,477 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:50:46,398 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\SystemPropertiesComputerName.exe']
+2025-06-12 13:50:46,430 - INFO - Launched process with PID: 4976
+2025-06-12 13:50:51,711 - INFO - Terminated benign process (PID: 4976) and its children.
+2025-06-12 13:50:51,711 - INFO - [STATS] Benign run count: 43
+2025-06-12 13:50:51,758 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:51:16,570 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\rasautou.exe']
+2025-06-12 13:51:16,601 - INFO - Launched process with PID: 5136
+2025-06-12 13:51:21,605 - INFO - [STATS] Benign run count: 44
+2025-06-12 13:51:21,680 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:52:36,633 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\ReAgentc.exe']
+2025-06-12 13:52:36,727 - INFO - Launched process with PID: 4160
+2025-06-12 13:52:41,742 - INFO - [STATS] Benign run count: 45
+2025-06-12 13:52:41,742 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:53:22,461 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_netfx4-applaunch_exe_b03f5f7f11d50a3a_4.0.15513.0_none_a2e9df72c83af1f6\\AppLaunch.exe']
+2025-06-12 13:53:22,492 - INFO - Launched process with PID: 1012
+2025-06-12 13:53:27,509 - INFO - [STATS] Benign run count: 46
+2025-06-12 13:53:27,509 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:53:52,898 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-d..ls-adschemaanalyzer_31bf3856ad364e35_10.0.16251.0_none_d214e128838f0415\\ADSchemaAnalyzer.exe']
+2025-06-12 13:53:52,914 - INFO - Launched process with PID: 1504
+2025-06-12 13:53:57,914 - INFO - [STATS] Benign run count: 47
+2025-06-12 13:53:57,914 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 13:54:24,460 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\DFDWiz.exe']
+2025-06-12 13:54:24,476 - INFO - Launched process with PID: 2416
+2025-06-12 13:54:29,492 - INFO - [STATS] Benign run count: 48
+2025-06-12 13:54:29,492 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:54:53,320 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-convert_31bf3856ad364e35_10.0.16251.0_none_a545f19b296f4894\\autoconv.exe']
+2025-06-12 13:54:53,336 - ERROR - Error running ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-convert_31bf3856ad364e35_10.0.16251.0_none_a545f19b296f4894\\autoconv.exe']: [WinError 129] The %1 application cannot be run in Win32 mode
+2025-06-12 13:54:53,336 - INFO - [STATS] Benign run count: 49
+2025-06-12 13:54:53,336 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:55:17,758 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_netfx4-dfsvc_b03f5f7f11d50a3a_4.0.15513.0_none_a06a97c530e9d379\\dfsvc.exe']
+2025-06-12 13:55:17,758 - INFO - Launched process with PID: 5384
+2025-06-12 13:55:22,867 - INFO - Terminated benign process (PID: 5384) and its children.
+2025-06-12 13:55:22,867 - INFO - [STATS] Benign run count: 50
+2025-06-12 13:55:22,883 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:55:45,336 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-deployment_31bf3856ad364e35_10.0.16251.0_none_fa0af3583a0a54bd\\setupugc.exe']
+2025-06-12 13:55:45,336 - INFO - Launched process with PID: 1532
+2025-06-12 13:55:50,351 - INFO - [STATS] Benign run count: 51
+2025-06-12 13:55:50,351 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:56:13,055 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\IME\\IMEJP\\imjpuexc.exe']
+2025-06-12 13:56:13,055 - INFO - Launched process with PID: 5428
+2025-06-12 13:56:18,070 - INFO - [STATS] Benign run count: 52
+2025-06-12 13:56:18,070 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:56:37,180 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\systeminfo.exe']
+2025-06-12 13:56:37,180 - INFO - Launched process with PID: 1124
+2025-06-12 13:56:42,195 - INFO - [STATS] Benign run count: 53
+2025-06-12 13:56:42,195 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 13:57:05,039 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\auditpol.exe']
+2025-06-12 13:57:05,039 - INFO - Launched process with PID: 3664
+2025-06-12 13:57:10,055 - INFO - [STATS] Benign run count: 54
+2025-06-12 13:57:10,055 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:57:31,696 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-convert_31bf3856ad364e35_10.0.16251.0_none_9af14748f50e8699\\convert.exe']
+2025-06-12 13:57:31,711 - INFO - Launched process with PID: 2020
+2025-06-12 13:57:36,711 - INFO - [STATS] Benign run count: 55
+2025-06-12 13:57:36,711 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 13:57:58,508 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\fontdrvhost.exe']
+2025-06-12 13:57:58,508 - INFO - Launched process with PID: 2124
+2025-06-12 13:58:03,523 - INFO - [STATS] Benign run count: 56
+2025-06-12 13:58:03,523 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:58:21,789 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\svchost.exe']
+2025-06-12 13:58:21,789 - INFO - Launched process with PID: 1192
+2025-06-12 13:58:26,789 - INFO - [STATS] Benign run count: 57
+2025-06-12 13:58:26,789 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:58:45,992 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-smss-minwin_31bf3856ad364e35_10.0.16251.0_none_7c7cd2d03587bff9\\smss.exe']
+2025-06-12 13:58:45,992 - ERROR - Error running ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-smss-minwin_31bf3856ad364e35_10.0.16251.0_none_7c7cd2d03587bff9\\smss.exe']: [WinError 129] The %1 application cannot be run in Win32 mode
+2025-06-12 13:58:45,992 - INFO - [STATS] Benign run count: 58
+2025-06-12 13:58:45,992 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 13:59:04,289 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\wbem\\WinMgmt.exe']
+2025-06-12 13:59:04,289 - INFO - Launched process with PID: 4444
+2025-06-12 13:59:09,305 - INFO - [STATS] Benign run count: 59
+2025-06-12 13:59:09,305 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 13:59:26,851 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\findstr.exe']
+2025-06-12 13:59:26,867 - INFO - Launched process with PID: 1784
+2025-06-12 13:59:31,867 - INFO - [STATS] Benign run count: 60
+2025-06-12 13:59:31,867 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 13:59:52,227 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\SearchProtocolHost.exe']
+2025-06-12 13:59:52,227 - INFO - Launched process with PID: 5556
+2025-06-12 13:59:57,242 - INFO - [STATS] Benign run count: 61
+2025-06-12 13:59:57,242 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:00:19,398 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\net1.exe']
+2025-06-12 14:00:19,414 - INFO - Launched process with PID: 4048
+2025-06-12 14:00:24,414 - INFO - [STATS] Benign run count: 62
+2025-06-12 14:00:24,414 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:00:47,117 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-setup-component_31bf3856ad364e35_10.0.16251.0_none_30487adbf9fe9b31\\AuditShD.exe']
+2025-06-12 14:00:47,117 - ERROR - Error running ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-setup-component_31bf3856ad364e35_10.0.16251.0_none_30487adbf9fe9b31\\AuditShD.exe']: [WinError 740] The requested operation requires elevation
+2025-06-12 14:00:47,117 - INFO - [STATS] Benign run count: 63
+2025-06-12 14:00:47,117 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:00:55,117 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:01:00,133 - INFO - [STATS] Malicious run count: 8
+2025-06-12 14:01:00,133 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:01:18,305 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\timeout.exe']
+2025-06-12 14:01:18,305 - INFO - Launched process with PID: 4608
+2025-06-12 14:01:23,305 - INFO - [STATS] Benign run count: 64
+2025-06-12 14:01:23,305 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:01:44,601 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\NetHost.exe']
+2025-06-12 14:01:44,601 - INFO - Launched process with PID: 6112
+2025-06-12 14:01:49,602 - INFO - [STATS] Benign run count: 65
+2025-06-12 14:01:49,602 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:02:10,414 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\UsoClient.exe']
+2025-06-12 14:02:10,414 - INFO - Launched process with PID: 4432
+2025-06-12 14:02:15,414 - INFO - [STATS] Benign run count: 66
+2025-06-12 14:02:15,414 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:02:34,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\InfusedApps\\Packages\\Microsoft.WindowsCalculator_10.1706.1602.0_x64__8wekyb3d8bbwe\\Calculator.exe']
+2025-06-12 14:02:34,727 - ERROR - Error running ['C:\\Windows\\InfusedApps\\Packages\\Microsoft.WindowsCalculator_10.1706.1602.0_x64__8wekyb3d8bbwe\\Calculator.exe']: [WinError 5] Access is denied
+2025-06-12 14:02:34,727 - INFO - [STATS] Benign run count: 67
+2025-06-12 14:02:34,727 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:02:54,914 - INFO - [BENIGN] Executing: ['C:\\Windows\\servicing\\TrustedInstaller.exe']
+2025-06-12 14:02:54,914 - INFO - Launched process with PID: 4784
+2025-06-12 14:02:59,929 - INFO - [STATS] Benign run count: 68
+2025-06-12 14:02:59,929 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:03:23,101 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-t..lishing-wmiprovider_31bf3856ad364e35_10.0.16251.0_none_33545525e0457259\\rdpsign.exe']
+2025-06-12 14:03:23,117 - INFO - Launched process with PID: 4836
+2025-06-12 14:03:28,133 - INFO - [STATS] Benign run count: 69
+2025-06-12 14:03:28,133 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:03:47,398 - INFO - [BENIGN] Executing: ['C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\\MicrosoftEdgeCP.exe']
+2025-06-12 14:03:47,414 - INFO - Launched process with PID: 776
+2025-06-12 14:03:52,430 - INFO - [STATS] Benign run count: 70
+2025-06-12 14:03:52,430 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 14:04:13,508 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-microsoftedge_31bf3856ad364e35_10.0.16251.0_none_0f53bb013cdbccbd\\MicrosoftEdgeCP.exe']
+2025-06-12 14:04:13,524 - INFO - Launched process with PID: 4568
+2025-06-12 14:04:18,539 - INFO - [STATS] Benign run count: 71
+2025-06-12 14:04:18,539 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:04:39,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\dllhst3g.exe']
+2025-06-12 14:04:39,133 - INFO - Launched process with PID: 3660
+2025-06-12 14:04:44,133 - INFO - [STATS] Benign run count: 72
+2025-06-12 14:04:44,133 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:05:07,398 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-mediafoundation_31bf3856ad364e35_10.0.16251.0_none_9a7b2bc9597dfd1d\\mfpmp.exe']
+2025-06-12 14:05:07,524 - INFO - Launched process with PID: 4676
+2025-06-12 14:05:12,570 - INFO - [STATS] Benign run count: 73
+2025-06-12 14:05:12,601 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 14:05:18,648 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:05:23,664 - INFO - [STATS] Malicious run count: 9
+2025-06-12 14:05:23,664 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:05:46,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\LockScreenContentServer.exe']
+2025-06-12 14:05:46,727 - INFO - Launched process with PID: 5500
+2025-06-12 14:05:51,961 - INFO - Terminated benign process (PID: 5500) and its children.
+2025-06-12 14:05:51,961 - INFO - [STATS] Benign run count: 74
+2025-06-12 14:05:51,977 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:06:17,820 - INFO - [BENIGN] Executing: ['C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.1706.1981.1000_x64__8wekyb3d8bbwe\\GetHelp.exe']
+2025-06-12 14:06:17,820 - ERROR - Error running ['C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.1706.1981.1000_x64__8wekyb3d8bbwe\\GetHelp.exe']: [WinError 5] Access is denied
+2025-06-12 14:06:17,820 - INFO - [STATS] Benign run count: 75
+2025-06-12 14:06:17,820 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:06:39,196 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\RecoveryDrive.exe']
+2025-06-12 14:06:39,211 - INFO - Launched process with PID: 5472
+2025-06-12 14:06:44,367 - INFO - Terminated benign process (PID: 5472) and its children.
+2025-06-12 14:06:44,367 - INFO - [STATS] Benign run count: 76
+2025-06-12 14:06:44,383 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:07:06,070 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\SystemPropertiesRemote.exe']
+2025-06-12 14:07:06,070 - INFO - Launched process with PID: 5432
+2025-06-12 14:07:11,289 - INFO - Terminated benign process (PID: 5432) and its children.
+2025-06-12 14:07:11,289 - INFO - [STATS] Benign run count: 77
+2025-06-12 14:07:11,305 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 14:07:31,180 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-u..ed-telemetry-client_31bf3856ad364e35_10.0.16251.0_none_9e0eec5553a8f088\\runscripthelper.exe']
+2025-06-12 14:07:31,180 - INFO - Launched process with PID: 304
+2025-06-12 14:07:36,195 - INFO - [STATS] Benign run count: 78
+2025-06-12 14:07:36,195 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:07:58,024 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-dlna-mdeserver_31bf3856ad364e35_10.0.16251.0_none_d4242fa16f9e2bd7\\MDEServer.exe']
+2025-06-12 14:07:58,024 - INFO - Launched process with PID: 4740
+2025-06-12 14:08:03,117 - INFO - Terminated benign process (PID: 4740) and its children.
+2025-06-12 14:08:03,117 - INFO - [STATS] Benign run count: 79
+2025-06-12 14:08:03,117 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:08:10,133 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:08:15,148 - INFO - [STATS] Malicious run count: 10
+2025-06-12 14:08:15,148 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:08:35,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-recover_31bf3856ad364e35_10.0.16251.0_none_842f4a5c0157520c\\recover.exe']
+2025-06-12 14:08:35,727 - INFO - Launched process with PID: 900
+2025-06-12 14:08:40,742 - INFO - [STATS] Benign run count: 80
+2025-06-12 14:08:40,742 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:08:47,742 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:08:52,758 - INFO - [STATS] Malicious run count: 11
+2025-06-12 14:08:52,758 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:09:15,836 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\ntprint.exe']
+2025-06-12 14:09:15,836 - INFO - Launched process with PID: 2548
+2025-06-12 14:09:20,836 - INFO - [STATS] Benign run count: 81
+2025-06-12 14:09:20,836 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:09:38,820 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-m..lepc-mobilitycenter_31bf3856ad364e35_10.0.16251.0_none_58b5f16757ff6c8e\\mblctr.exe']
+2025-06-12 14:09:38,867 - INFO - Launched process with PID: 2784
+2025-06-12 14:09:43,883 - INFO - [STATS] Benign run count: 82
+2025-06-12 14:09:43,883 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:10:07,164 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\iscsicpl.exe']
+2025-06-12 14:10:07,164 - INFO - Launched process with PID: 3176
+2025-06-12 14:10:12,289 - INFO - Terminated benign process (PID: 3176) and its children.
+2025-06-12 14:10:12,289 - INFO - [STATS] Benign run count: 83
+2025-06-12 14:10:12,289 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:10:30,727 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Common Files\\microsoft shared\\ink\\ShapeCollector.exe']
+2025-06-12 14:10:30,742 - INFO - Launched process with PID: 4456
+2025-06-12 14:10:35,758 - INFO - [STATS] Benign run count: 84
+2025-06-12 14:10:35,758 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:10:57,524 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_microsoft-windows-snmp-evntcmd_31bf3856ad364e35_10.0.16251.0_none_5b0228aa986403f8\\evntcmd.exe']
+2025-06-12 14:10:57,539 - INFO - Launched process with PID: 5280
+2025-06-12 14:11:02,555 - INFO - [STATS] Benign run count: 85
+2025-06-12 14:11:02,555 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:11:24,805 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-rasclienttools_31bf3856ad364e35_10.0.16251.0_none_77b776a829ce5735\\rasphone.exe']
+2025-06-12 14:11:24,851 - INFO - Launched process with PID: 1032
+2025-06-12 14:11:31,054 - INFO - Terminated benign process (PID: 1032) and its children.
+2025-06-12 14:11:31,054 - INFO - [STATS] Benign run count: 86
+2025-06-12 14:11:31,070 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:11:53,758 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\mspaint.exe']
+2025-06-12 14:12:11,148 - INFO - Launched process with PID: 3112
+2025-06-12 14:12:16,352 - INFO - Terminated benign process (PID: 3112) and its children.
+2025-06-12 14:12:16,352 - INFO - [STATS] Benign run count: 87
+2025-06-12 14:12:16,367 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:12:38,523 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\SyncHost.exe']
+2025-06-12 14:12:38,539 - INFO - Launched process with PID: 5576
+2025-06-12 14:12:43,805 - INFO - Terminated benign process (PID: 5576) and its children.
+2025-06-12 14:12:43,805 - INFO - [STATS] Benign run count: 88
+2025-06-12 14:12:43,820 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:13:04,023 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\ntprint.exe']
+2025-06-12 14:13:04,023 - INFO - Launched process with PID: 1496
+2025-06-12 14:13:09,039 - INFO - [STATS] Benign run count: 89
+2025-06-12 14:13:09,039 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:13:29,008 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\RMActivate.exe']
+2025-06-12 14:13:29,023 - INFO - Launched process with PID: 2904
+2025-06-12 14:13:34,039 - INFO - [STATS] Benign run count: 90
+2025-06-12 14:13:34,039 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:13:44,055 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:13:49,071 - INFO - [STATS] Malicious run count: 12
+2025-06-12 14:13:49,071 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:14:08,086 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-wab-app_31bf3856ad364e35_10.0.16251.0_none_4b1a046058afb2f7\\wab.exe']
+2025-06-12 14:14:08,102 - INFO - Launched process with PID: 820
+2025-06-12 14:14:13,102 - INFO - [STATS] Benign run count: 91
+2025-06-12 14:14:13,102 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:14:35,789 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-snmp-agent-service_31bf3856ad364e35_10.0.16251.0_none_ffa58846d95fed61\\snmp.exe']
+2025-06-12 14:14:35,805 - INFO - Launched process with PID: 5964
+2025-06-12 14:14:40,820 - INFO - [STATS] Benign run count: 92
+2025-06-12 14:14:40,820 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:15:03,570 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\BitLockerDeviceEncryption.exe']
+2025-06-12 14:15:03,586 - INFO - Launched process with PID: 916
+2025-06-12 14:15:08,586 - INFO - [STATS] Benign run count: 93
+2025-06-12 14:15:08,586 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:15:17,586 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:15:22,586 - INFO - [STATS] Malicious run count: 13
+2025-06-12 14:15:22,586 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:15:46,586 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\LicenseManagerShellext.exe']
+2025-06-12 14:15:46,602 - INFO - Launched process with PID: 3612
+2025-06-12 14:15:51,617 - INFO - [STATS] Benign run count: 94
+2025-06-12 14:15:51,617 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:16:19,633 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\CompMgmtLauncher.exe']
+2025-06-12 14:16:19,664 - INFO - Launched process with PID: 4924
+2025-06-12 14:16:24,680 - INFO - [STATS] Benign run count: 95
+2025-06-12 14:16:24,711 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:16:45,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-xbox-gameoverlay_31bf3856ad364e35_10.0.16251.0_none_47267091a86da5dd\\GamePanel.exe']
+2025-06-12 14:16:45,836 - INFO - Launched process with PID: 3424
+2025-06-12 14:16:50,867 - INFO - [STATS] Benign run count: 96
+2025-06-12 14:16:50,883 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:17:22,713 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-u..usnotificationuxexe_31bf3856ad364e35_10.0.16251.0_none_722f39cf5e8db1c9\\MusNotificationUx.exe']
+2025-06-12 14:17:22,763 - INFO - Launched process with PID: 4456
+2025-06-12 14:17:27,776 - INFO - [STATS] Benign run count: 97
+2025-06-12 14:17:27,789 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:17:35,790 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:17:40,805 - INFO - [STATS] Malicious run count: 14
+2025-06-12 14:17:40,805 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:18:04,963 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_microsoft-windows-ieinstal_31bf3856ad364e35_11.0.16251.0_none_be8ab50090db1cbc\\ieinstal.exe']
+2025-06-12 14:18:05,008 - INFO - Launched process with PID: 4548
+2025-06-12 14:18:10,009 - INFO - [STATS] Benign run count: 98
+2025-06-12 14:18:10,009 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:18:20,024 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:18:25,039 - INFO - [STATS] Malicious run count: 15
+2025-06-12 14:18:25,039 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:18:50,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\DmNotificationBroker.exe']
+2025-06-12 14:18:50,164 - INFO - Launched process with PID: 5356
+2025-06-12 14:18:55,180 - INFO - [STATS] Benign run count: 99
+2025-06-12 14:18:55,180 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:19:26,461 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\expand.exe']
+2025-06-12 14:19:26,476 - INFO - Launched process with PID: 304
+2025-06-12 14:19:31,477 - INFO - [STATS] Benign run count: 100
+2025-06-12 14:19:31,477 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:19:56,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\PackageInspector.exe']
+2025-06-12 14:19:56,133 - INFO - Launched process with PID: 5252
+2025-06-12 14:20:01,133 - INFO - [STATS] Benign run count: 101
+2025-06-12 14:20:01,133 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:20:22,008 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-tcpip-utility_31bf3856ad364e35_10.0.16251.0_none_30e2f0379b9a754d\\ARP.EXE']
+2025-06-12 14:20:22,008 - INFO - Launched process with PID: 5340
+2025-06-12 14:20:27,008 - INFO - [STATS] Benign run count: 102
+2025-06-12 14:20:27,008 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:20:47,680 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-msinfo32-exe_31bf3856ad364e35_10.0.16251.0_none_b44d0db67acb5dcd\\msinfo32.exe']
+2025-06-12 14:20:47,711 - INFO - Launched process with PID: 5248
+2025-06-12 14:20:52,711 - INFO - [STATS] Benign run count: 103
+2025-06-12 14:20:52,711 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:21:17,180 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_windowssearchengine_31bf3856ad364e35_7.0.16251.0_none_7d6349cb24fe9a62\\SearchIndexer.exe']
+2025-06-12 14:21:17,180 - INFO - Launched process with PID: 4456
+2025-06-12 14:21:22,180 - INFO - [STATS] Benign run count: 104
+2025-06-12 14:21:22,180 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:21:45,430 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Windows Media Player\\wmlaunch.exe']
+2025-06-12 14:21:45,430 - INFO - Launched process with PID: 2820
+2025-06-12 14:21:50,602 - INFO - Terminated benign process (PID: 2820) and its children.
+2025-06-12 14:21:50,602 - INFO - [STATS] Benign run count: 105
+2025-06-12 14:21:50,602 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:22:15,602 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\x86_aspnet_regbrowsers_b03f5f7f11d50a3a_4.0.15513.0_none_a66542982146f7fa\\aspnet_regbrowsers.exe']
+2025-06-12 14:22:15,618 - INFO - Launched process with PID: 4528
+2025-06-12 14:22:20,634 - INFO - [STATS] Benign run count: 106
+2025-06-12 14:22:20,634 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:22:52,524 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\quser.exe']
+2025-06-12 14:22:52,539 - INFO - Launched process with PID: 3144
+2025-06-12 14:22:57,555 - INFO - [STATS] Benign run count: 107
+2025-06-12 14:22:57,555 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:23:19,883 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\licensingdiag.exe']
+2025-06-12 14:23:19,898 - INFO - Launched process with PID: 2112
+2025-06-12 14:23:25,164 - ERROR - Error terminating benign process (PID: 2112): Command 'taskkill /F /PID 2112 /T' returned non-zero exit status 255.
+2025-06-12 14:23:25,164 - INFO - [STATS] Benign run count: 108
+2025-06-12 14:23:25,180 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:23:48,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\MpSigStub.exe']
+2025-06-12 14:23:48,164 - INFO - Launched process with PID: 2656
+2025-06-12 14:23:53,179 - INFO - [STATS] Benign run count: 109
+2025-06-12 14:23:53,179 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:24:14,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\raserver.exe']
+2025-06-12 14:24:14,727 - INFO - Launched process with PID: 3984
+2025-06-12 14:24:19,883 - INFO - Terminated benign process (PID: 3984) and its children.
+2025-06-12 14:24:19,883 - INFO - [STATS] Benign run count: 110
+2025-06-12 14:24:19,883 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:24:43,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\ARP.EXE']
+2025-06-12 14:24:43,133 - INFO - Launched process with PID: 1664
+2025-06-12 14:24:48,149 - INFO - [STATS] Benign run count: 111
+2025-06-12 14:24:48,149 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:25:09,852 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-f..temcompareutilities_31bf3856ad364e35_10.0.16251.0_none_fee2a1108218a4b4\\comp.exe']
+2025-06-12 14:25:09,852 - INFO - Launched process with PID: 5312
+2025-06-12 14:25:14,992 - INFO - Terminated benign process (PID: 5312) and its children.
+2025-06-12 14:25:14,992 - INFO - [STATS] Benign run count: 112
+2025-06-12 14:25:14,992 - INFO - Waiting for 6 seconds before next action...
+2025-06-12 14:25:34,227 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-u..ed-telemetry-client_31bf3856ad364e35_10.0.16251.0_none_9e0eec5553a8f088\\runexehelper.exe']
+2025-06-12 14:25:34,227 - INFO - Launched process with PID: 3396
+2025-06-12 14:25:39,242 - INFO - [STATS] Benign run count: 113
+2025-06-12 14:25:39,242 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:26:02,024 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\wow64_microsoft-windows-secinit_31bf3856ad364e35_10.0.16251.0_none_902897574e1b4da4\\secinit.exe']
+2025-06-12 14:26:02,024 - INFO - Launched process with PID: 1784
+2025-06-12 14:26:07,027 - INFO - [STATS] Benign run count: 114
+2025-06-12 14:26:07,027 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:26:26,555 - INFO - [BENIGN] Executing: ['C:\\Windows\\SysWOW64\\SystemPropertiesProtection.exe']
+2025-06-12 14:26:26,586 - INFO - Launched process with PID: 2424
+2025-06-12 14:26:31,805 - INFO - Terminated benign process (PID: 2424) and its children.
+2025-06-12 14:26:31,805 - INFO - [STATS] Benign run count: 115
+2025-06-12 14:26:31,805 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:26:53,727 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-dpiscaling_31bf3856ad364e35_10.0.16251.0_none_7863cfc3a7ac68fe\\DpiScaling.exe']
+2025-06-12 14:26:53,742 - INFO - Launched process with PID: 1748
+2025-06-12 14:26:58,742 - INFO - [STATS] Benign run count: 116
+2025-06-12 14:26:58,742 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:27:20,260 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-m..erience-parser-task_31bf3856ad364e35_10.0.16251.0_none_c82e5d22b853fa9b\\MbaeParserTask.exe']
+2025-06-12 14:27:20,260 - INFO - Launched process with PID: 6508
+2025-06-12 14:27:25,289 - INFO - [STATS] Benign run count: 117
+2025-06-12 14:27:25,289 - INFO - Waiting for 7 seconds before next action...
+2025-06-12 14:27:32,290 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:27:37,305 - INFO - [STATS] Malicious run count: 16
+2025-06-12 14:27:37,305 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:27:59,820 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\tscon.exe']
+2025-06-12 14:27:59,836 - INFO - Launched process with PID: 6676
+2025-06-12 14:28:04,836 - INFO - [STATS] Benign run count: 118
+2025-06-12 14:28:04,836 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:28:13,852 - INFO - [MALICIOUS] Executing: ['C:\\Users\\a\\Desktop\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-12 14:28:18,867 - INFO - [STATS] Malicious run count: 17
+2025-06-12 14:28:18,867 - INFO - Waiting for 8 seconds before next action...
+2025-06-12 14:28:42,010 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-tcpip-utility_31bf3856ad364e35_10.0.16251.0_none_30e2f0379b9a754d\\NETSTAT.EXE']
+2025-06-12 14:28:42,023 - INFO - Launched process with PID: 6872
+2025-06-12 14:28:47,049 - INFO - [STATS] Benign run count: 119
+2025-06-12 14:28:47,049 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:29:13,133 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\msil_multipoint-wmsdashboard_31bf3856ad364e35_10.0.16251.0_none_4e48735a38963b9f\\WmsDashboard.exe']
+2025-06-12 14:29:13,149 - INFO - Launched process with PID: 7064
+2025-06-12 14:29:18,414 - INFO - Terminated benign process (PID: 7064) and its children.
+2025-06-12 14:29:18,430 - INFO - [STATS] Benign run count: 120
+2025-06-12 14:29:18,430 - INFO - Waiting for 10 seconds before next action...
+2025-06-12 14:29:44,211 - INFO - [BENIGN] Executing: ['C:\\Windows\\System32\\dccw.exe']
+2025-06-12 14:29:44,243 - INFO - Launched process with PID: 6308
+2025-06-12 14:29:49,805 - INFO - Terminated benign process (PID: 6308) and its children.
+2025-06-12 14:29:49,820 - INFO - [STATS] Benign run count: 121
+2025-06-12 14:29:49,852 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:30:17,977 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-tcpip_31bf3856ad364e35_10.0.16251.0_none_5fa19269dc15fd52\\netiougc.exe']
+2025-06-12 14:30:17,994 - INFO - Launched process with PID: 488
+2025-06-12 14:30:23,008 - INFO - [STATS] Benign run count: 122
+2025-06-12 14:30:23,008 - INFO - Waiting for 5 seconds before next action...
+2025-06-12 14:30:43,711 - INFO - [BENIGN] Executing: ['C:\\Windows\\WinSxS\\amd64_microsoft-windows-s..e-client-ui-wsreset_31bf3856ad364e35_10.0.16251.0_none_c493f68552be624a\\WSReset.exe']
+2025-06-12 14:30:43,742 - INFO - Launched process with PID: 6632
+2025-06-12 14:30:49,039 - INFO - Terminated benign process (PID: 6632) and its children.
+2025-06-12 14:30:49,039 - INFO - [STATS] Benign run count: 123
+2025-06-12 14:30:49,055 - INFO - Waiting for 9 seconds before next action...
+2025-06-12 14:30:58,070 - INFO - --- TEST HARNESS FINISHED ---
+2025-06-12 14:30:58,070 - INFO - [SUMMARY] Total benign runs: 123
+2025-06-12 14:30:58,070 - INFO - [SUMMARY] Total malicious runs: 17

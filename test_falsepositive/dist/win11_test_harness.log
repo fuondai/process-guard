@@ -1,0 +1,194 @@
+2025-06-13 15:36:44,757 - INFO - Deleting old ProcessGuard log file: C:\Users\dadad\Downloads\AV\test_falsepositive\dist\detector.log
+2025-06-13 15:36:44,758 - ERROR - Could not delete C:\Users\dadad\Downloads\AV\test_falsepositive\dist\detector.log: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\detector.log'
+2025-06-13 15:36:44,762 - INFO - --- STARTING RANDOM SYSTEM EXE & MALICIOUS TEST HARNESS ---
+2025-06-13 15:36:44,762 - INFO - Test duration: 3600 seconds
+2025-06-13 15:36:44,763 - INFO - Harness log file: C:\Users\dadad\Downloads\AV\test_falsepositive\dist\test_harness.log
+2025-06-13 15:36:44,763 - INFO - Monitoring ProcessGuard log at: C:\Users\dadad\Downloads\AV\test_falsepositive\dist\detector.log
+2025-06-13 15:36:44,763 - INFO - Please run ProcessGuard in monitoring mode in a separate terminal.
+2025-06-13 15:36:44,764 - INFO - Suggested command: .\ProcessGuard.exe --monitor (run from the same directory)
+2025-06-13 15:37:39,992 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\bcdboot.exe']
+2025-06-13 15:37:39,999 - INFO - Launched process with PID: 22468
+2025-06-13 15:37:45,013 - INFO - [STATS] Benign run count: 1
+2025-06-13 15:37:45,014 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 15:38:29,221 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\SecurityHealthHost.exe']
+2025-06-13 15:38:29,234 - INFO - Launched process with PID: 16172
+2025-06-13 15:38:34,243 - INFO - [STATS] Benign run count: 2
+2025-06-13 15:38:34,243 - INFO - Waiting for 7 seconds before next action...
+2025-06-13 15:39:22,406 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\wow64_microsoft-windows-tcpip-utility_31bf3856ad364e35_10.0.26100.4202_none_d8f2f53733359526\\NETSTAT.EXE']
+2025-06-13 15:39:22,416 - INFO - Launched process with PID: 22868
+2025-06-13 15:39:27,424 - INFO - [STATS] Benign run count: 3
+2025-06-13 15:39:27,424 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:40:18,930 - INFO - [BENIGN] Executing: ['C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Windows.Sdk.net8.0_17.0\\17.0.8523\\tools\\msbuild\\iOS\\imobiledevice-x86\\ideviceinfo.exe']
+2025-06-13 15:40:18,941 - INFO - Launched process with PID: 29672
+2025-06-13 15:40:24,190 - ERROR - Error terminating benign process (PID: 29672): Command 'taskkill /F /PID 29672 /T' returned non-zero exit status 128.
+2025-06-13 15:40:24,191 - INFO - [STATS] Benign run count: 4
+2025-06-13 15:40:24,191 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 15:41:06,903 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\x86\\MsPdbCmf.exe']
+2025-06-13 15:41:06,967 - INFO - Launched process with PID: 16132
+2025-06-13 15:41:11,973 - INFO - [STATS] Benign run count: 5
+2025-06-13 15:41:11,973 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:41:52,239 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_curl_31bf3856ad364e35_10.0.26100.3624_none_1a1998b7cd406144\\curl.exe']
+2025-06-13 15:41:52,250 - INFO - Launched process with PID: 10392
+2025-06-13 15:41:57,251 - INFO - [STATS] Benign run count: 6
+2025-06-13 15:41:57,251 - INFO - Waiting for 7 seconds before next action...
+2025-06-13 15:42:34,344 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-security-spp-ux-dlg_31bf3856ad364e35_10.0.26100.1150_none_3a3e93ee89e96c57\\changepk.exe']
+2025-06-13 15:42:34,352 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-security-spp-ux-dlg_31bf3856ad364e35_10.0.26100.1150_none_3a3e93ee89e96c57\\changepk.exe']: [WinError 740] The requested operation requires elevation
+2025-06-13 15:42:34,353 - INFO - [STATS] Benign run count: 7
+2025-06-13 15:42:34,353 - INFO - Waiting for 7 seconds before next action...
+2025-06-13 15:43:14,013 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-wmi-tools_31bf3856ad364e35_10.0.26100.1150_none_73e2ba5833894ee6\\wbemtest.exe']
+2025-06-13 15:43:14,021 - INFO - Launched process with PID: 21900
+2025-06-13 15:43:19,245 - INFO - Terminated benign process (PID: 21900) and its children.
+2025-06-13 15:43:19,246 - INFO - [STATS] Benign run count: 8
+2025-06-13 15:43:19,246 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:43:55,851 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-refsutil_31bf3856ad364e35_10.0.26100.4202_none_868e6ae4df5b8e70\\r\\refsutil.exe']
+2025-06-13 15:47:25,152 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-refsutil_31bf3856ad364e35_10.0.26100.4202_none_868e6ae4df5b8e70\\r\\refsutil.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:47:25,153 - INFO - [STATS] Benign run count: 9
+2025-06-13 15:47:25,156 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:48:25,768 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-nfs-clientcmdtools_31bf3856ad364e35_10.0.26100.1882_none_ed01d773a09258f7\\r\\mount.exe']
+2025-06-13 15:48:28,131 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-nfs-clientcmdtools_31bf3856ad364e35_10.0.26100.1882_none_ed01d773a09258f7\\r\\mount.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:48:28,132 - INFO - [STATS] Benign run count: 10
+2025-06-13 15:48:28,132 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:49:02,763 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\SystemPropertiesProtection.exe']
+2025-06-13 15:49:02,771 - ERROR - Error running ['C:\\WINDOWS\\System32\\SystemPropertiesProtection.exe']: [WinError 740] The requested operation requires elevation
+2025-06-13 15:49:02,771 - INFO - [STATS] Benign run count: 11
+2025-06-13 15:49:02,771 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:49:35,601 - INFO - [BENIGN] Executing: ['C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Windows.Sdk.net9.0_18.2\\18.2.9180\\tools\\msbuild\\iOS\\imobiledevice-x86\\ideviceenterrecovery.exe']
+2025-06-13 15:49:35,633 - INFO - Launched process with PID: 5016
+2025-06-13 15:49:40,635 - INFO - [STATS] Benign run count: 12
+2025-06-13 15:49:40,635 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 15:49:45,640 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:49:45,641 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:49:45,642 - INFO - [STATS] Malicious run count: 1
+2025-06-13 15:49:45,642 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 15:49:50,645 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:49:50,645 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:49:50,646 - INFO - [STATS] Malicious run count: 2
+2025-06-13 15:49:50,646 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 15:50:31,232 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-tcpip-utility_31bf3856ad364e35_10.0.26100.3624_none_ce74dc52fef3abb8\\r\\ARP.EXE']
+2025-06-13 15:51:32,831 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-tcpip-utility_31bf3856ad364e35_10.0.26100.3624_none_ce74dc52fef3abb8\\r\\ARP.EXE']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:51:32,833 - INFO - [STATS] Benign run count: 13
+2025-06-13 15:51:32,841 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:51:41,845 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:51:41,846 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:51:41,846 - INFO - [STATS] Malicious run count: 3
+2025-06-13 15:51:41,846 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:52:20,479 - INFO - [BENIGN] Executing: ['C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\Git\\usr\\bin\\dash.exe']
+2025-06-13 15:52:20,500 - INFO - Launched process with PID: 3484
+2025-06-13 15:52:25,684 - INFO - Terminated benign process (PID: 3484) and its children.
+2025-06-13 15:52:25,684 - INFO - [STATS] Benign run count: 14
+2025-06-13 15:52:25,685 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:53:03,945 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-d..frameworks-usermode_31bf3856ad364e35_10.0.26100.3912_none_389e36b6a5722631\\r\\WUDFHost.exe']
+2025-06-13 15:53:06,277 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-d..frameworks-usermode_31bf3856ad364e35_10.0.26100.3912_none_389e36b6a5722631\\r\\WUDFHost.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:53:06,279 - INFO - [STATS] Benign run count: 15
+2025-06-13 15:53:06,279 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:53:45,702 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-a..roblemstepsrecorder_31bf3856ad364e35_10.0.26100.3912_none_767e3756fb28532d\\r\\psr.exe']
+2025-06-13 15:53:48,438 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-a..roblemstepsrecorder_31bf3856ad364e35_10.0.26100.3912_none_767e3756fb28532d\\r\\psr.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:53:48,439 - INFO - [STATS] Benign run count: 16
+2025-06-13 15:53:48,439 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:54:24,793 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\vshost32.exe']
+2025-06-13 15:54:24,806 - INFO - Launched process with PID: 20380
+2025-06-13 15:54:29,808 - INFO - [STATS] Benign run count: 17
+2025-06-13 15:54:29,808 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:55:09,131 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\x86_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.4060_none_4933ec23becde68c\\containerworker.exe']
+2025-06-13 15:55:09,158 - INFO - Launched process with PID: 19480
+2025-06-13 15:55:14,174 - INFO - [STATS] Benign run count: 18
+2025-06-13 15:55:14,175 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:55:54,955 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\printui.exe']
+2025-06-13 15:55:54,963 - ERROR - Error running ['C:\\WINDOWS\\System32\\printui.exe']: [WinError 740] The requested operation requires elevation
+2025-06-13 15:55:54,964 - INFO - [STATS] Benign run count: 19
+2025-06-13 15:55:54,964 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:56:00,976 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:56:00,977 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:56:00,977 - INFO - [STATS] Malicious run count: 4
+2025-06-13 15:56:00,977 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:56:06,982 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:56:06,983 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:56:06,984 - INFO - [STATS] Malicious run count: 5
+2025-06-13 15:56:06,984 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:56:46,611 - INFO - [BENIGN] Executing: ['C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Windows.Sdk.net9.0_18.2\\18.2.9180\\tools\\msbuild\\iOS\\imobiledevice-x64\\ideviceinstaller.exe']
+2025-06-13 15:56:46,638 - INFO - Launched process with PID: 30784
+2025-06-13 15:56:51,646 - INFO - [STATS] Benign run count: 20
+2025-06-13 15:56:51,646 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 15:57:00,655 - INFO - [MALICIOUS] Executing: ['C:\\Users\\dadad\\Downloads\\AV\\test_falsepositive\\dist\\process_doppelganging.exe', 'mimikatz.exe']
+2025-06-13 15:57:00,656 - ERROR - Error running or terminating malicious process process_doppelganging.exe: [WinError 2] The system cannot find the file specified
+2025-06-13 15:57:00,656 - INFO - [STATS] Malicious run count: 6
+2025-06-13 15:57:00,656 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:57:41,286 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-w..ebviewhost.appxmain_31bf3856ad364e35_10.0.26100.1150_none_a661f954ca482f71\\Win32WebViewHost.exe']
+2025-06-13 15:57:41,299 - INFO - Launched process with PID: 23840
+2025-06-13 15:57:46,305 - INFO - [STATS] Benign run count: 21
+2025-06-13 15:57:46,305 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 15:58:28,063 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\CoreCon\\Binaries\\Phone Tools\\Debugger\\target\\armv4i\\VSDebugLaunchNotify.exe']
+2025-06-13 15:58:46,458 - ERROR - Error running ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\CoreCon\\Binaries\\Phone Tools\\Debugger\\target\\armv4i\\VSDebugLaunchNotify.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 15:58:46,458 - INFO - [STATS] Benign run count: 22
+2025-06-13 15:58:46,459 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 15:59:28,432 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-securestartup-cpl_31bf3856ad364e35_10.0.26100.3624_none_f3343ffd3b2de8b3\\BitLockerWizardElev.exe']
+2025-06-13 15:59:28,447 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-securestartup-cpl_31bf3856ad364e35_10.0.26100.3624_none_f3343ffd3b2de8b3\\BitLockerWizardElev.exe']: [WinError 740] The requested operation requires elevation
+2025-06-13 15:59:28,447 - INFO - [STATS] Benign run count: 23
+2025-06-13 15:59:28,448 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 16:00:17,321 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\lpremove.exe']
+2025-06-13 16:00:17,327 - INFO - Launched process with PID: 29408
+2025-06-13 16:00:22,341 - INFO - [STATS] Benign run count: 24
+2025-06-13 16:00:22,341 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 16:00:56,607 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Microsoft Office\\root\\Office16\\lynchtmlconv.exe']
+2025-06-13 16:00:56,621 - INFO - Launched process with PID: 7400
+2025-06-13 16:01:01,624 - INFO - [STATS] Benign run count: 25
+2025-06-13 16:01:01,624 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 16:01:31,423 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Git\\bin\\sh.exe']
+2025-06-13 16:01:31,430 - INFO - Launched process with PID: 15080
+2025-06-13 16:01:36,551 - INFO - Terminated benign process (PID: 15080) and its children.
+2025-06-13 16:01:36,551 - INFO - [STATS] Benign run count: 26
+2025-06-13 16:01:36,551 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 16:02:05,349 - INFO - [BENIGN] Executing: ['C:\\Program Files (x86)\\VMware\\VMware Workstation\\vnetsniffer.exe']
+2025-06-13 16:02:05,374 - INFO - Launched process with PID: 7204
+2025-06-13 16:02:10,383 - INFO - [STATS] Benign run count: 27
+2025-06-13 16:02:10,383 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 16:02:40,109 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Azure Storage Emulator\\azurite.exe']
+2025-06-13 16:02:40,120 - INFO - Launched process with PID: 3848
+2025-06-13 16:02:45,271 - INFO - Terminated benign process (PID: 3848) and its children.
+2025-06-13 16:02:45,271 - INFO - [STATS] Benign run count: 28
+2025-06-13 16:02:45,271 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 16:03:15,757 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\wow64_networking-mpssvc-netsh_31bf3856ad364e35_10.0.26100.3775_none_54ed42e4ab29bf56\\CheckNetIsolation.exe']
+2025-06-13 16:03:15,763 - INFO - Launched process with PID: 4860
+2025-06-13 16:03:20,778 - INFO - [STATS] Benign run count: 29
+2025-06-13 16:03:20,778 - INFO - Waiting for 7 seconds before next action...
+2025-06-13 16:03:51,777 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_0bd497310795eeb4\\igfxCUIService.exe']
+2025-06-13 16:03:51,781 - INFO - Launched process with PID: 364
+2025-06-13 16:03:56,788 - INFO - [STATS] Benign run count: 30
+2025-06-13 16:03:56,788 - INFO - Waiting for 6 seconds before next action...
+2025-06-13 16:04:26,566 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-services-svchost_31bf3856ad364e35_10.0.26100.4343_none_518bcb4fb549094b\\svchost.exe']
+2025-06-13 16:04:26,570 - INFO - Launched process with PID: 24088
+2025-06-13 16:04:31,573 - INFO - [STATS] Benign run count: 31
+2025-06-13 16:04:31,573 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 16:05:04,858 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\wow64_microsoft-windows-tpm-tool_31bf3856ad364e35_10.0.26100.3912_none_a41b1b5ad10c027c\\TpmTool.exe']
+2025-06-13 16:05:05,059 - INFO - Launched process with PID: 28852
+2025-06-13 16:05:10,064 - INFO - [STATS] Benign run count: 32
+2025-06-13 16:05:10,064 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 16:05:44,751 - INFO - [BENIGN] Executing: ['C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64\\DeployUtil.exe']
+2025-06-13 16:05:44,757 - INFO - Launched process with PID: 27060
+2025-06-13 16:05:49,769 - INFO - [STATS] Benign run count: 33
+2025-06-13 16:05:49,769 - INFO - Waiting for 5 seconds before next action...
+2025-06-13 16:06:19,249 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\wow64_microsoft-windows-rasconnectionmanager_31bf3856ad364e35_10.0.26100.1_none_66689223fd72e96f\\cmdl32.exe']
+2025-06-13 16:06:19,252 - INFO - Launched process with PID: 11680
+2025-06-13 16:06:24,257 - INFO - [STATS] Benign run count: 34
+2025-06-13 16:06:24,257 - INFO - Waiting for 10 seconds before next action...
+2025-06-13 16:06:59,369 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.26100.4202_none_ac3a15c63b5bba3f\\r\\WmiPrvSE.exe']
+2025-06-13 16:07:00,598 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.26100.4202_none_ac3a15c63b5bba3f\\r\\WmiPrvSE.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 16:07:00,599 - INFO - [STATS] Benign run count: 35
+2025-06-13 16:07:00,599 - INFO - Waiting for 8 seconds before next action...
+2025-06-13 16:07:32,789 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-p..ting-tools-printbrm_31bf3856ad364e35_10.0.26100.4202_none_1d917faef54b4442\\r\\PrintBrm.exe']
+2025-06-13 16:07:33,913 - ERROR - Error running ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-p..ting-tools-printbrm_31bf3856ad364e35_10.0.26100.4202_none_1d917faef54b4442\\r\\PrintBrm.exe']: [WinError 216] This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+2025-06-13 16:07:33,913 - INFO - [STATS] Benign run count: 36
+2025-06-13 16:07:33,915 - INFO - Waiting for 7 seconds before next action...
+2025-06-13 16:08:10,144 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\WinSxS\\amd64_microsoft-windows-security-spp-ux-dlg_31bf3856ad364e35_10.0.26100.4061_none_3a4a530e89e07ad3\\LicensingUI.exe']
+2025-06-13 16:08:10,149 - INFO - Launched process with PID: 31008
+2025-06-13 16:08:15,161 - INFO - [STATS] Benign run count: 37
+2025-06-13 16:08:15,161 - INFO - Waiting for 9 seconds before next action...
+2025-06-13 16:08:50,164 - INFO - [BENIGN] Executing: ['C:\\Program Files\\Git\\usr\\bin\\fold.exe']
+2025-06-13 16:08:50,172 - INFO - Launched process with PID: 17252
+2025-06-13 16:08:55,376 - INFO - Terminated benign process (PID: 17252) and its children.
+2025-06-13 16:08:55,377 - INFO - [STATS] Benign run count: 38
+2025-06-13 16:08:55,377 - INFO - Waiting for 10 seconds before next action...
+2025-06-13 16:09:34,802 - INFO - [BENIGN] Executing: ['C:\\WINDOWS\\System32\\ipconfig.exe']
+2025-06-13 16:09:34,805 - INFO - Launched process with PID: 25956
+2025-06-13 16:09:39,817 - INFO - [STATS] Benign run count: 39
+2025-06-13 16:09:39,818 - INFO - Waiting for 8 seconds before next action...
